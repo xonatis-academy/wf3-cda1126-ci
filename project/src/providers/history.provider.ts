@@ -1,4 +1,6 @@
-export default class HistoryProvider {
+import IHistoryProvider from "./history.provider.interface";
+
+export default class HistoryProvider implements IHistoryProvider {
     private static History: string[] = [];
 
     public push(left: number, right: number, operator: string): void {

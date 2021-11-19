@@ -1,9 +1,9 @@
-import HistoryProvider from "../providers/history.provider";
+import IHistoryProvider from "../providers/history.provider.interface";
 
 export default class CalculatorService {
-    private readonly historyProvider: HistoryProvider;
+    private readonly historyProvider: IHistoryProvider;
 
-    public constructor(historyProvider: HistoryProvider) {
+    public constructor(historyProvider: IHistoryProvider) {
         this.historyProvider = historyProvider;
     }
 
