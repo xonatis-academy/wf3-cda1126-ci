@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td colspan="4">
+                <span id="result"></span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <span id="result-left"></span>
+            </td>
+            <td colspan="2">
+                <span id="result-right"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="clear-result">Clear</button>
+            </td>
+            <td colspan="2">
+                <button id="clear-history">Clear History</button>
+            </td>
+            <td>
+                <button id="inverse">+/-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="number">1</button>
+            </td>
+            <td>
+                <button class="number">2</button>
+            </td>
+            <td>
+                <button class="number">3</button>
+            </td>
+            <td>
+                <button class="operator">+</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="number">4</button>
+            </td>
+            <td>
+                <button class="number">5</button>
+            </td>
+            <td>
+                <button class="number">6</button>
+            </td>
+            <td>
+                <button class="operator">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="number">7</button>
+            </td>
+            <td>
+                <button class="number">8</button>
+            </td>
+            <td>
+                <button class="number">9</button>
+            </td>
+            <td>
+                <button class="operator">x</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="number">0</button>
+            </td>
+            <td>
+                <button id="set-left">Left</button>
+            </td>
+            <td>
+                <button id="set-right">Right</button>
+            </td>
+            <td>
+                <button class="operator">./.</button>
+            </td>
+        </tr>
+    </table>
+    <div id="history-div"></div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

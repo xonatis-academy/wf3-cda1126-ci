@@ -1,0 +1,9 @@
+tr {
+    text-align: center;
+}
+
+span {
+    height: 40px;
+    border: 1px solid #EEE;
+    padding: 5px;
+}
