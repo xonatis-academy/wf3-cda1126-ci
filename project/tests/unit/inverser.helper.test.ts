@@ -5,7 +5,7 @@ describe('helpers/inverser.helper', () => {
         new InverserHelper(); // Fix
     });
 
-    it('should add entries', () => {
+    it('should inverse numbers', () => {
         expect(InverserHelper.inverse(3)).toBe(-3);
     });
 });
